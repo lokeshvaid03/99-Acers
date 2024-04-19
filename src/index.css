@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-cover-container{
+    background-image: url('./assets/back-img.jpg');
+    background-size: 109% 309px;
+    background-repeat: no-repeat;
+  }
+
+  .custom-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.358);
+  }
